@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.luonglv;
+package com.luonglv.mathutil;
 
 /**
  *
@@ -26,8 +26,8 @@ public class MathUtility {
         if(n == 0 || n==1) return 1; //0!, 1! = 1;
         
         long result = 0;
-        for (int i = 2; i < n; i++) {
-            result += i;
+        for (int i = 2; i <= n; i++) {
+            result *= i;
         }
         return result;
     }
