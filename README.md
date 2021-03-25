@@ -13,5 +13,5 @@ project as the helper ones
 [Facebook](https//:facebook.com/)
 [Email](mailto: luonglv7@gmail.com)
 
-#### 2021 luonglv
+#### © 2021 by luong.lv
 
