@@ -25,10 +25,13 @@ public class MathUtility {
         //song sot den day n se la tu 0 - 20
         if(n == 0 || n==1) return 1; //0!, 1! = 1;
         
-        long result = 1;
-        for (int i = 2; i <= n; i++) {
-            result *= i;
-        }
-        return result;
+        return n * getFactorial(n-1);
+        //n! = n * (n-1)!
+        //đệ quy: vòng lại chính mình với quy mô khác --> RECURSION
+//        long result = 1;
+//        for (int i = 2; i <= n; i++) {
+//            result *= i;
+//        }
+//        return result;
     }
 }
